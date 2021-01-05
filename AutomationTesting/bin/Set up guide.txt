@@ -1,0 +1,48 @@
+To install Selenium we nee the following software":
+1)JDK 
+2)Eclipse IDE 
+3)Selenium for Chrom browser (By default Selenium uses firefox to change the browser from FF to Google Chrom we need to install this).
+4)JAR Files
+
+Step 1
+* JDK installiation ---> https://www.techspot.com/downloads/5198-java-jre.html    
+
+* After the JDK installation is done we need to set the system environment variables.
+        To do this Go to ThisPc(right click) --->Select properties ---->Select Advanced System Settings --->Select enviroment variables
+        ---> In the system variables window Click on new ---> Set variable name as JAVA_HOME and Value to C:\Program Files\Java\jdk1.8.0_271.
+        (Or the path in which java JDK has been installed).
+
+*Add JAVA_HOME variable to the Path variable
+        To do so in the select Path in the System variables window -----> and click on edit and in the popup edit environment window click 
+        Click on add new and add this "%JAVA_HOME%\bin"
+
+*To check if JDK is installed in the command prompt give "javac -version".
+
+Step 2
+*Eclipse installation https://www.eclipse.org/downloads/
+
+Step 3
+*Selenium installation (Chrom Driver)  https://www.selenium.dev/downloads/
+        Navigate to Platforms Supported by Selenium ----> under that click on - Browsers and Select
+        
+        Chrome
+        ChromeDriver is supported by the Chromium project, please refer to their documentation for any compatibility information.
+
+Step 4
+download the JAR files required.
+Selenium 4.0.0 --> https://jar-download.com/artifacts/io.github.bonigarcia/webdrivermanager/4.0.0/source-code
+testNG ---> https://jar-download.com/artifacts/org.testng/testng/6.9.9/source-code
+
+Step 5 
+configure the Java project created in Eclipse and add the JAR files.
+        Right-click on the project ---> select Build Path ---> select configure build path ---> select java build path and under libraries
+        select classpath ---> and select add external JAR files and navigate to the location of the JAR files and apply them.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+For more information
+check out
+---> https://www.lambdatest.com/blog/selenium-chromedriver-automation-testing-guide/
+---> https://www.guru99.com/installing-selenium-webdriver.html
+---> https://www.toolsqa.com/selenium-webdriver/configure-selenium-webdriver-with-eclipse/
+---> 
