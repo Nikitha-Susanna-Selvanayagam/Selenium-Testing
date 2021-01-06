@@ -30,9 +30,8 @@ Step 3
 
 Step 4
 download the JAR files required.
-Selenium 4.0.0 --> https://jar-download.com/artifacts/io.github.bonigarcia/webdrivermanager/4.0.0/source-code
-testNG ---> https://jar-download.com/artifacts/org.testng/testng/6.9.9/source-code
-
+Selenium 4.0.0 -->  Available in this repo
+testNG ---> Available in this repo
 Step 5 
 configure the Java project created in Eclipse and add the JAR files.
         Right-click on the project ---> select Build Path ---> select configure build path ---> select java build path and under libraries
@@ -45,4 +44,3 @@ check out
 ---> https://www.lambdatest.com/blog/selenium-chromedriver-automation-testing-guide/
 ---> https://www.guru99.com/installing-selenium-webdriver.html
 ---> https://www.toolsqa.com/selenium-webdriver/configure-selenium-webdriver-with-eclipse/
----> 
